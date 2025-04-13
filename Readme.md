@@ -24,17 +24,18 @@ Before running this project, make sure you have the following installed:
 ```bash
 git clone https://github.com/radhe-ravi/mail-server.git
 cd python-mail-server
+```
 
-2. Set up a virtual environment (optional but recommended)
+### 2. Set up a virtual environment (optional but recommended)
 
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3. Install dependencies
+### 3. Install dependencies
 
 pip install -r requirements.txt
 
-4. Configure environment variables
+### 4. Configure environment variables
 
 Create a .env file in the root of the project directory with the following content:
 
@@ -43,7 +44,7 @@ GMAIL_PASSWORD=your_app_password
 
     Note: If you are using Gmail, you need to create an "App Password" (due to Google's security requirements). You can follow the steps to create an app password here.
 
-5. Run the server
+### 5. Run the server
 
 Start the Flask server:
 
